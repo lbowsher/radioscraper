@@ -76,11 +76,12 @@ def compare_artist_lists(csv_path, radio_url):
         # Print results
         print(f"Artists in both lists: {len(common_artists)}")
         print("\nCommon artists:")
-        for artist, time in radio_titles_with_times:
+        print(common_artists)
+        for time, artist in radio_titles_with_times:
             if artist in common_artists:
                 print(f"- {time}: {artist}")
             
-        # print(f"\nArtists only in your Spotify list: {len(spotify_only)}")
+        print(f"\nArtists only in your Spotify list: {len(spotify_only)}")
         # print("\nSpotify-only artists:")
         # for artist in sorted(spotify_only):
         #     print(f"- {artist}")
