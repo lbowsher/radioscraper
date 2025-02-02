@@ -95,7 +95,7 @@ def compare_artist_lists(csv_path, radio_url):
         driver.quit()
 # Usage
 if __name__ == "__main__":
-    csv_path = "spotify_top_artists_20250104.csv"
+    csv_path = "spotify_top_artists_20250129.csv"
     radio_url = "https://www.thelotradio.com/"
     # dump_html_content(radio_url=radio_url, output_path="lotradio")
     compare_artist_lists(csv_path, radio_url)
