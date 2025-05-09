@@ -1,0 +1,8 @@
+# Update Spotify stats every 2 weeks on Sunday at 1am
+0 1 */14 * 0 cd /app && python /app/spotify-stats.py >> /app/logs/spotify-stats.log 2>&1
+
+# Check LOT Radio once a week on Monday at 10am
+0 10 * * 1 cd /app && python /app/lotradioscraper.py >> /app/logs/lotradio-alerts.log 2>&1
+
+# Keep cron running
+* * * * * echo "Cron is running" > /proc/1/fd/1 2>/proc/1/fd/2

@@ -1,0 +1,29 @@
+2025-05-03 22:52:10,404 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:52:10,408 - scheduler - INFO - Directory structure verified
+2025-05-03 22:52:11,106 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:52:11,110 - scheduler - INFO - Directory structure verified
+2025-05-03 22:52:11,833 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:52:11,836 - scheduler - INFO - Directory structure verified
+2025-05-03 22:52:12,787 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:52:12,790 - scheduler - INFO - Directory structure verified
+2025-05-03 22:52:14,152 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:52:14,155 - scheduler - INFO - Directory structure verified
+2025-05-03 22:52:16,319 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:52:16,322 - scheduler - INFO - Directory structure verified
+2025-05-03 22:52:20,066 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:52:20,069 - scheduler - INFO - Directory structure verified
+2025-05-03 22:52:27,043 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:52:27,045 - scheduler - INFO - Directory structure verified
+2025-05-03 22:52:40,418 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:52:40,420 - scheduler - INFO - Directory structure verified
+2025-05-03 22:53:01,010 - scheduler - INFO - Starting LOT Radio Alerts scheduler
+2025-05-03 22:53:01,012 - scheduler - INFO - Directory structure verified
+2025-05-03 22:53:01,061 - scheduler - ERROR - AWS credentials check failed: Unable to locate credentials
+2025-05-03 22:53:01,063 - scheduler - WARNING - Continuing without AWS credentials
+2025-05-03 22:53:01,065 - scheduler - INFO - No Spotify artist CSV files found. Running spotify-stats.py...
+2025-05-03 22:53:02,821 - scheduler - INFO - Successfully generated Spotify artist data
+2025-05-03 22:53:02,824 - scheduler - INFO - Initial checks completed successfully
+2025-05-03 22:53:02,836 - scheduler - INFO - Cron service started
+2025-05-03 22:53:02,838 - scheduler - INFO - Scheduler is running. Press Ctrl+C to exit.
+2025-05-03 22:53:02,840 - scheduler - INFO - Scheduler heartbeat at 2025-05-03 22:53:02
+2025-05-04 00:44:28,403 - scheduler - INFO - Scheduler heartbeat at 2025-05-04 00:44:28

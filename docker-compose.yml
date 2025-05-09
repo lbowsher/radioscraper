@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  lotradio-alerts:
+    build: .
+    container_name: lotradio-alerts
+    restart: unless-stopped
+    ports:
+      - "8080:8080"  # For health checks
+    volumes:
+      - ./logs:/app/logs
+      - ./.cache:/app/.cache
+    env_file:
+      - .env
+    # AWS-specific logging (commented out for local testing)
+    # logging:
+    #   driver: "awslogs"
+    #   options:
+    #     awslogs-group: "/ecs/lotradio-alerts"
+    #     awslogs-region: "us-east-1"  # Change to your region
+    #     awslogs-stream-prefix: "ecs"
+    healthcheck:
+      test: ["CMD", "/app/healthcheck.sh"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
